@@ -8,6 +8,7 @@ import CsvDetails from "./pages/CsvDetails";
 import Resetpw from "./components/Cards/Reset_password/Resetpw";
 import Logout from "./pages/Logout";
 import ListUsers from "./pages/ListUsers";
+import Register from "./components/Cards/Register_page/Register";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/reset" element={<Resetpw />} />
         <Route path="/logout" element={<Logout />} />
         <Route path="/Lusers" element={<ListUsers />} />
+        <Route path="/register" element={<Register/>} />
       </Routes>
     </>
   );

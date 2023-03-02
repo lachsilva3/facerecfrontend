@@ -141,6 +141,12 @@ const loginApp =async(e)=> {
                   {" "}
                   Forgot Password?
                 </Link>
+              </label><bR></bR>
+              <label>
+                <Link style={{ textDecoration: "none" }} to="/register">
+                  {" "}
+                  New Registration?
+                </Link>
               </label>
             </div>
             &nbsp;&nbsp;&nbsp;
