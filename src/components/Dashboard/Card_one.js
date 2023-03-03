@@ -71,10 +71,16 @@ const Card_one = () => {
         </Tr>
       </Tbody>
     </Table>
+
+
+
     <br></br><br></br> 
-   <center> <button  type="submit" className="btn2 btn-success" >
+    <center>
+   <button  type="submit" className="btn2 " >
     Take Attendance
-    </button></center>
+    </button>
+    </center>
+
 
        </div>
     </div>

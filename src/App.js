@@ -9,7 +9,7 @@ import Resetpw from "./components/Cards/Reset_password/Resetpw";
 import Logout from "./pages/Logout";
 import ListUsers from "./pages/ListUsers";
 import Register from "./components/Cards/Register_page/Register";
-
+import Attendance_log from "./pages/Attendance_log";
 function App() {
   return (
     <>
@@ -23,6 +23,7 @@ function App() {
         <Route path="/logout" element={<Logout />} />
         <Route path="/Lusers" element={<ListUsers />} />
         <Route path="/register" element={<Register/>} />
+        <Route path="/attendance_log" element={<  Attendance_log/>} />
       </Routes>
     </>
   );

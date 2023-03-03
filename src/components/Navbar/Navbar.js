@@ -25,10 +25,17 @@ const Navbar = () => {
           </li>
           <hR></hR>
           <li>
+            <Link className="nav-link " aria-current="page" to="/attendance_log">
+              Logs
+            </Link>
+          </li>
+          <hR></hR>
+          <li>
             <Link className="nav-link " aria-current="page" to="/">
               LogOut
             </Link>
           </li>
+       
          
         </ul>
         <h1 className="logo" >

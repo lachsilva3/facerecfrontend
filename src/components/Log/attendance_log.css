@@ -1,0 +1,36 @@
+.container3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.container3 .box3{
+  position: relative;
+  justify-content: center;
+  background-color: grey;
+  top: 10%;
+  width: 90%;
+  margin-left: 5%;
+  height:90%;
+}
+/* Table */
+.box3 Table {
+  text-align: center; 
+  height: 350px;
+
+}
+
+.box3 Table Th {
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: large;
+  border-bottom: 1px solid white;
+  border: 3px solid white;
+}
+
+.box3 Table Td {
+  text-align: center;
+  border: 3px solid white;
+}
